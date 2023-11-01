@@ -77,6 +77,25 @@ header a {
   color: var(--dark-color);
 }
 
+/* <!-- FOOTER SECTION_______________________________________________________________________ --> */
+footer {
+  color: var(--light-color);
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../imgs/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
 /* <!-- @MEDIA_______________________________________________________________________ --> */
 
 @media (max-width: 900px) {
