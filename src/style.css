@@ -133,6 +133,7 @@ footer a {
 /* <!-- @MEDIA_______________________________________________________________________ --> */
 
 @media (max-width: 900px) {
+  /* HEADER SECTION_________________________ */
   header {
     padding: 3.75rem 0;
   }
@@ -149,6 +150,7 @@ footer a {
     font-size: 12px;
   }
 
+  /* FOOTER SECTION _________________________ */
   footer {
     padding: 4rem;
   }
