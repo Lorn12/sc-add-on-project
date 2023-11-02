@@ -161,10 +161,4 @@ footer a {
     padding-bottom: 2rem;
     margin: 1.5rem;
   }
-
-  .grids > :nth-last-child() {
-    padding-bottom: 0;
-    margin-bottom: 0;
-    color: #272044;
-  }
 }
