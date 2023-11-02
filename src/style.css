@@ -25,7 +25,7 @@ a {
 }
 
 section {
-  max-width: 2000px;
+  width: 100%;
   margin: 0 auto;
 }
 /* <!-- HEADER SECTION_______________________________________________________________________ --> */
@@ -91,7 +91,7 @@ footer {
     url("../imgs/footer-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 6rem;
+  padding: 12rem 4rem;
 }
 
 .grid {
@@ -99,7 +99,7 @@ footer {
   grid-template-columns: 1fr 2fr 2fr;
   align-content: center;
   justify-content: center;
-  margin: 4rem auto;
+  /* margin: 4rem auto; */
 }
 
 .grids {
@@ -117,7 +117,6 @@ footer p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
   opacity: 0.6;
 }
 
@@ -152,15 +151,15 @@ footer a {
 
   /* FOOTER SECTION _________________________ */
   footer {
-    padding: 4rem;
+    padding: 3.75rem 0;
   }
   .grid {
     grid-template-columns: 1fr;
-    margin: 4rem auto 8rem;
+    margin: 2rem auto 8rem;
   }
 
   .grids {
     padding-bottom: 2rem;
-    margin: 1.5rem;
+    margin: 1rem;
   }
 }
