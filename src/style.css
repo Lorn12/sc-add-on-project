@@ -61,7 +61,7 @@ header {
       rgba(39, 32, 68, 0.4),
       rgba(39, 32, 68, 0.8)
     ),
-    url("../imgs/hero-bg.png");
+    url("../imgs/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -197,6 +197,20 @@ main p {
 
 .last h2 {
   margin-bottom: 4rem;
+}
+
+.shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.shadow:hover {
+  transform: scale(1.1);
+}
+
+.gallery-imgs {
+  text-align: center;
 }
 
 /* <!-- FOOTER SECTION_______________________________________________________________________ --> */
