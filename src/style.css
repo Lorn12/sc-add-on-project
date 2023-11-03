@@ -47,7 +47,8 @@ section.secondary {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 /* <!-- HEADER SECTION_______________________________________________________________________ --> */
 .container {
