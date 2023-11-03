@@ -190,6 +190,15 @@ main p {
   text-transform: uppercase;
 }
 
+.last {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.last h2 {
+  margin-bottom: 4rem;
+}
+
 /* <!-- FOOTER SECTION_______________________________________________________________________ --> */
 footer {
   color: var(--light-color);
