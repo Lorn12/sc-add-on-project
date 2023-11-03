@@ -143,6 +143,15 @@ main p {
   margin: 40px 0;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
 .card-body {
   padding: 24px 30px;
 }
@@ -226,7 +235,7 @@ footer a {
 
 /* <!-- @MEDIA_______________________________________________________________________ --> */
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
   /* GENERALS ____________________________ */
   section {
     padding: 30px;
@@ -251,6 +260,17 @@ footer a {
 
   header h3 {
     font-size: 12px;
+  }
+
+  /* MAIN SECTION ____________________________ */
+
+  /* CARD______ */
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 
   /* FOOTER SECTION _________________________ */
