@@ -4,6 +4,8 @@
 :root {
   --light-color: #fff;
   --dark-color: #272044;
+  --mid-color: #f8f8f8;
+  --btn-purple-color: #462cb2;
 }
 
 * {
@@ -28,6 +30,15 @@ section {
   max-width: 1400px;
   margin: 0 auto;
   padding: 100px 171px;
+}
+
+section.secondary {
+  max-width: 100%;
+  background: var(--mid-color);
+}
+
+.text-center {
+  text-align: center;
 }
 
 .grid {
@@ -118,6 +129,55 @@ main p {
 
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
+}
+
+/* CARDS_________________________________ */
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: var(--light-color);
+  margin: 40px 0;
+}
+
+.card-body {
+  padding: 24px 30px;
+}
+
+.card h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 24px;
+}
+
+.card h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: 8px;
+}
+
+.card p {
+  padding-bottom: 24px;
+}
+
+.btn {
+  display: block;
+  color: var(--light-color);
+  background: var(--btn-purple-color);
+  padding: 16px 32px;
+  margin: 24px auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
 
 /* <!-- FOOTER SECTION_______________________________________________________________________ --> */
